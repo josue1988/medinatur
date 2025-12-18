@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Catálogo de Productos Naturales Artesanales</title>
+<style>
+  body {
+    background-color: #ebf0e9;
+    font-family: Arial, sans-serif;
+    color: #2e4d25;
+    margin: 0;
+    display: flex;
+  }
+
+  /* Menú lateral acordeón */
+  .sidebar {
+    width: 260px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding: 25px 15px;
+    margin: 20px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+  }
+  .sidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #3a5a25;
+    text-align: center;
+    border-bottom: 1px solid #d5e4cb;
+    padding-bottom: 8px;
+  }
+  .accordion-item { margin-bottom: 10px; }
+  .accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f5ec;
+  }
+  .accordion-header:hover { background-color: #d5e4cb; }
+  .accordion-content {
+    display: none;
+    flex-direction: column;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .accordion-content a {
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #2e4d25;
+    border-radius: 6px;
+  }
+  .accordion-content a:hover { background-color: #cce0b9; }
+
+  /* Contenido principal */
+  .main-content {
+    flex-grow: 1;
+    margin: 20px;
+    max-width: 900px;
+  }
+  h1 { text-align: center; color: #3a5a25; margin-bottom: 30px; }
+  .producto-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(46, 77, 37, 0.15);
+  }
+  .producto-header { font-weight: bold; font-size: 1.25rem; margin-bottom: 12px; }
+  .producto-info { font-size: 0.95rem; margin-bottom: 15px; }
+  .producto-beneficios {
+    background-color: #d5e4cb;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    white-space: pre-line;
+  }
+</style>
+</head>
+<body>
+
+<!-- MENÚ ORDENADO ALFABÉTICAMENTE -->
+<div class="sidebar">
+  <h2>Menú Catálogo</h2>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Aceites</div>
+    <div class="accordion-content">
+      <a href="#aceite-coco">Aceite de Coco, Orégano y Clavo</a>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Tinturas</div>
+    <div class="accordion-content">
+
+      <a href="#tintura-alergia">Alergía, Asma y Vías Respiratorias</a>
+      <a href="#tintura-artemisa">Artemisa</a>
+      <a href="#tintura-depuracion">CBD</a>
+      <a href="#tintura-depuracion">Depuración Hepática, Renal y Vesicular</a>
+      <a href="#tintura-kalanchoe">Kalanchoe</a>
+      <a href="#tintura-afrodisiaco">Potenciador Afrodisíaco</a>
+      <a href="#tintura-relax">Ritual de Relax</a>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Ungüentos</div>
+    <div class="accordion-content">
+      <a href="#unguento">Regenerador de piel y calmante</a>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Otros productos</div>
+    <div class="accordion-content">
+      <a href="#sal-marina">Sal marina sin refinar</a>
+      <a href="#cds">Dióxido de cloro (CDS)</a>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Precios</div>
+    <div class="accordion-content">
+      <a href="#pack">Ver precios</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENIDO PRINCIPAL -->
+<div class="main-content">
+<h1>🌿 MEDINATUR 🌿 Productos Naturales Artesanales</h1>
+
+<!-- Aceite -->
+<div class="producto-card" id="aceite-coco">
+  <div class="producto-header">Aceite de Coco, Orégano y Clavo</div>
+  <div class="producto-info"> 
+    Aceite de coco <strong>virgen extra prensado en frío</strong>, combinado con extractos naturales de orégano y clavo. Ideal para salud digestiva, inmunológica y equilibrio general.
+  </div>
+  <div class="producto-beneficios">✔ Es una fuente de energía inmediata
+✔ Acción antiparasitaria: ayuda a eliminar parásitos intestinales, huevos y larvas gracias a carvacrol y eugenol
+✔ Apoya el equilibrio de la microbiota intestinal y controla el crecimiento de Candida y otras levaduras
+✔ Ayuda a prevenir la osteoporosis
+✔ Ayuda a prevenir las infecciones bacterianas, virales y fúngicas
+✔ Beneficios digestivos y metabólicos gracias al ácido láurico y ácidos grasos de cadena media
+✔ Aroma herbal cálido y sabor suave, fácil de integrar en la rutina diaria
+✔ Mejora la digestión y la absorción de nutrientes
+✔ Reduce el riesgo de aterosclerosis
+✔ Reduce el riesgo de contraer cáncer
+✔ Elaboración artesanal con ingredientes de máxima calidad
+
+* Cantidad: 400 gr
+* Uso oral recomendado: tomar en ayunas (empezar con 2gr el primer día, ir aumentando 2gr cada día hasta llegar a 10gr diarios según tolerancia)
+* Descansar 1 semana, por cada 3 semanas de uso
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).
+  </div>
+</div>
+
+<!-- Tintura Afrodisíaco -->
+<div class="producto-card" id="tintura-afrodisiaco">
+  <div class="producto-header"> AFRONATUR</div>
+  <div class="producto-info">
+    Combinación de Extractos:<strong> Maca, Damiana y Ginkgo Biloba</strong> para energía, libido y vitalidad (afrodisiaco).
+  </div>
+  <div class="producto-beneficios">✔ Incrementa la libido de forma natural
+✔ Equilibrio hormonal
+✔ Mejora energía y vitalidad
+✔ Aumenta la resistencia física
+✔ Mejora el estado de ánimo
+✔ Acción adaptógena
+✔ Favorece la fertilidad
+✔ Mejora sensibilidad sexual
+✔ Apoya claridad mental
+
+* Cantidad: 100 ml
+* Uso recomendado: tomar 40/60 gotas (2/3ml) preferiblemente por la mañana
+* Diluir en agua
+* Descansar 1 semana, por cada 3-4 semanas de uso
+
+  </div>
+</div>
+
+<!-- Tintura Alergía -->
+<div class="producto-card" id="tintura-alergia">
+  <div class="producto-header"> ALERGNATUR</div>
+  <div class="producto-info">
+    Combinación de Extractos: <strong>Perilla, Llantén y Ortiga</strong> para bienestar respiratorio y digestivo, además de anti-inflamatorio natural.
+  </div>
+  <div class="producto-beneficios">✔ Acción antimicrobiana, contribuyendo a un ambiente saludable del sistema respiratorio
+✔ Acción diurética suave, favoreciendo la eliminación de toxinas
+✔ Activo antiinflamatorio natural que ayuda a reducir molestias en vías respiratorias
+✔ Apoya el bienestar general y la vitalidad
+✔ Alivio de irritaciones en garganta y vías respiratorias
+✔ Alivio del picor e irritación de picaduras de insectos y pequeñas lesiones en la piel
+✔ Contiene compuestos que actúan como antiestamínicos naturales, ayudando a mitigar reacciones alérgicas
+✔ Efecto antiestamínico natural que ayuda a mitigar reacciones alérgicas
+✔ Efecto calmante que ayuda a aliviar síntomas de inflamación y alergias
+✔ Efecto antioxidante y modulación del sistema inmune
+✔ Favorece la hidratación y regeneración de mucosas respiratorias y digestivas
+✔ Promueve la salud del sistema urinario
+✔ Tradicionalmente usada para aliviar síntomas alérgicos, calmar tos, facilitar la expulsión de mucosidad favoreciendo la función respiratoria
+
+* Cantidad: 100 ml
+* Uso preventivo: 20/30 gotas (1/1,5ml) 1 vez al dia
+* Uso como tratamiento: 20/30 gotas (1/1,5ml) 1-3 veces al día
+* Diluir en agua
+* Descansar 1 semana, por cada 3 semanas de uso
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).
+  </div>
+</div>
+
+<!-- Tintura Artemisa -->
+<div class="producto-card" id="tintura-artemisa">
+  <div class="producto-header"> ARTEMINATUR</div>
+  <div class="producto-info">
+    Extracto de Artemisa de alta calidad, tradicionalmente usado para apoyo digestivo y bienestar general.
+  </div>
+  <div class="producto-beneficios">✔ Uso tradicional en fitoterapia: empleada desde siglos en medicina tradicional china por sus múltiples propiedades saludables
+✔ Apoyo digestivo: ayuda a aliviar molestias gastrointestinales y promueve una digestión saludable
+✔ Inmunomoduladora / Inmunosupresora: contribuye al equilibrio del sistema inmune y al bienestar general
+✔ Acción antioxidante: protege las células frente al estrés oxidativo
+✔ Propiedades antivirales: puede apoyar la defensa frente a virus comunes, como los causantes de gripe o resfriados
+✔ Tradicional para fiebre y gripe: usada históricamente para reducir fiebre, aliviar síntomas gripales y resfriados
+✔ Propiedades antiparasitarias: conocida por su acción contra parásitos intestinales y protozoos, incluyendo efectos frente a la malaria
+✔ Apoyo respiratorio: ayuda a aliviar molestias leves en vías respiratorias durante resfriados
+✔ Bienestar general: promueve energía, vitalidad y sensación de equilibrio corporal
+✔ Anticancerígena (investigación en melanoma y leucemia)
+✔ Antiparasitaria (especialmente contra malaria)
+✔ Antibacteriana, Antiviral, Antioxidante, Antipirética
+
+🩺 Usos tradicionales y estudiados
+Malaria, Fiebres, Ictericia, Infecciones virales, Cáncer (melanoma, leucemia), VIH, problemas digestivos, respiratorios y del sistema linfático
+
+* Cantidad: 100 ml
+* Uso preventivo: 20/30 gotas (1/1,5ml) 1 vez al dia 
+* Uso como tratamiento: 20/30 gotas (1/1,5ml) 1-3 veces al día
+* Diluir en agua
+* Tomar durante 3 semanas y descansar 3 semanas
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).
+  </div>
+</div>
+
+<!-- Tintura Detox -->
+<div class="producto-card" id="tintura-depuracion">
+  <div class="producto-header"> DETOXNATUR</div>
+  <div class="producto-info">
+    Combinación de Extractos: <strong>Diente de León, Cola de Caballo, Cardo Mariano y Boldo</strong> para favorecer la depuración natural del organismo.
+  </div>
+  <div class="producto-beneficios">✔ Depuración general del organismo
+✔ Apoya la función hepática, digestiva, renal y vejiga
+✔ Acción diurética moderada, favorece eliminación de líquidos y toxinas a través de la orina
+✔ Mejora digestión y absorción de nutrientes
+✔ Estimula la producción de bilis
+✔ Protección y regeneración hepática gracias al cardo mariano
+✔ Digestión más ligera y alivio de pesadez estomacal
+✔ Apoyo al equilibrio intestinal y microbiota
+✔ Fortalece uñas, pelo y huesos (minerales y sílice)
+
+* Cantidad: 100 ml
+* Uso preventivo: 20/30 gotas (1/1,5ml) 1 vez al dia
+* Uso como tratamiento: 20/30 gotas (1/1,5ml) 1-3 veces al día
+* Diluir en agua
+* Tomar durante 2-3 semanas y descansar 1 semana
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).
+  </div>
+</div>
+
+<!-- NUEVA TINTURA KALANCHOE -->
+<div class="producto-card" id="tintura-kalanchoe">
+  <div class="producto-header">KALANCHONATUR</div>
+  <div class="producto-info">Extracto de Kalanchoe, potente planta medicinal antiinflamatoria, inmunomoduladora y regeneradora celular, reconocida por su uso tradicional anticancerígeno y como apoyo natural en procesos crónicos. </div>
+  <div class="producto-beneficios">✔ Ayuda a reducir dolores articulares y musculares
+✔ Inmunomodulador (ayuda a equilibrar el sistema inmune)
+✔ Apoyo en procesos crónicos y degenerativos
+✔ Apoyo respiratorio (asma, bronquitis, tos crónica)
+✔ Apoyo en procesos tumorales [anticancerígeno (uso tradicional)]
+✔ Potente antiinflamatorio natural
+✔ Regenerador celular y tisular
+✔ Fuerte antioxidante
+✔ Tradicionalmente usado como coadyuvante en procesos tumorales (uso popular y etnobotánico)
+✔ Uso tradicional como coadyuvante en procesos crónicos
+
+* Cantidad: 100 ml
+* Uso preventivo: 20/30 gotas (1/1,5ml) 1 vez al dia
+* Uso como tratamiento: 20/30 gotas (1/1,5ml) 1-3 veces al día
+* Tomar durante 3 semanas y descansar 1 semana
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).</div>
+</div>
+
+<!-- Tintura Relax -->
+<div class="producto-card" id="tintura-relax">
+  <div class="producto-header"> RELAXNATUR</div>
+  <div class="producto-info">
+    Combinación de Extractos:<strong> Valeriana, Lúpulo y Passiflora</strong> para descanso y relajación nocturna.
+  </div>
+  <div class="producto-beneficios">✔ Favorece un sueño profundo y reparador
+✔ Reduce ansiedad y nerviosismo leves
+✔ Promueve relajación muscular y calma general
+✔ Ayuda a conciliar el sueño más rápido
+✔ Mejora la calidad del descanso nocturno
+✔ Reduce tensión mental y estrés diario
+✔ Apoya la relajación antes de rutinas nocturnas o meditación
+✔ Contribuye a la sensación de equilibrio emocional
+
+* Cantidad: 100 ml
+* Uso recomendado: tomar 20/60 gotas (1/3ml) 1 o 2 horas antes de dormir
+* Diluir en agua
+* Descansar 1 semana, por cada 3-4 semanas de uso
+
+⚠️ Contraindicaciones
+Evitar en embarazo y lactancia.
+Precaución en personas con problemas cardíacos, neurológicos o del sistema inmunitario.
+Cuidado si se toman antibióticos (posibles interacciones).
+  </div>
+</div>
+
+<!-- Ungüento -->
+<div class="producto-card" id="unguento">
+  <div class="producto-header">REGENATUR</div>
+  <div class="producto-info">
+    Ungüento a base de <strong>aceite de oliva virgen extra</strong>, cera de abeja y extractos de <strong>caléndula, llantén, lavanda y árbol del té</strong> para regenerar y calmar la piel.
+  </div>
+  <div class="producto-beneficios">✔ Regeneración de la piel
+✔ Favorece la cicatrización de heridas superficiales y cortes leves
+✔ Anti-inflamatorio y antiséptico natural
+✔ Calmar, regenera y cicatriza la piel (heridas superficiales, cortes, raspaduras y quemaduras leves)
+✔ Ideal para pieles sensibles
+✔ Apto para uso diario 
+✔ Ayuda a hidratar y regenerar labios cortados o resecos
+
+* Cantidad: 50 ml
+* Uso recomendado: aplicar una pequeña cantidad sobre la zona deseada, una o varias veces al día (se puede aplicar de forma regular para mantener la piel suave y protegida)  </div>
+</div>
+
+<!-- OTROS PRODUCTOS -->
+<div class="producto-card" id="sal-marina">
+  <div class="producto-header">Sal marina SIN REFINAR, PUREZA 100% </div>
+  <div class="producto-beneficios">✔ Rica en minerales
+✔ Apoya equilibrio electrolítico
+✔ Uso culinario y terapéutico</div>
+</div>
+
+<div class="producto-card" id="cds">
+  <div class="producto-header">Dióxido de cloro (CDS)</div>
+  <div class="producto-beneficios">Producto listado bajo responsabilidad del usuario.
+Información proporcionada sin fines médicos.</div>
+</div>
+
+<!-- OFERTAS -->
+<div class="producto-card" id="pack">
+  <div class="producto-header">Lista de precios</div>
+  <div class="producto-info">
+    Elige cualquier combinación de aceites, tinturas y ungüentos (mezcla libremente excepto tintura de CBD).
+  </div>
+  <div class="producto-beneficios"><strong>ACEITES, TINTURAS Y UNGüENTOS</strong>
+✔ .1 unidades → .20€ (20,00€/unidad)
+✔ .2 unidades → .38€ (19,00€/unidad)
+✔ .3 unidades → .54€ (18,00€/unidad)
+✔ .4 unidades → .68€ (17,00€/unidad)
+✔ .5 unidades → .80€ (16,00€/unidad)
+✔ .6 unidades → .95€ (15,83€/unidad)
+✔ .7 unidades → 108€ (15,42€/unidad)
+✔ .8 unidades → 120€ (15,00€/unidad)
+✔ .9 unidades → 130€ (14,44€/unidad)
+✔ 10 unidades → 140€ (14,00€/unidad)
+✔ 20 unidades → 270€ (13,50€/unidad)
+✔ 50 unidades → 650€ (13,00€/unidad)
+
+<strong>SAL MARINA SIN REFINAR, PUREZA 100%</strong>
+✔ .3 kg → .5,00 € (1,67 €/kg)
+✔ .5 kg → .7,50 € (1,50 €/kg)
+✔ 10 kg → 10,00 € (1,00 €/kg)
+✔ 15 kg → 13,00 € (0,87 €/kg)
+✔ 25 kg → 17,00 € (0,68 €/kg)
+
+<strong>DIOXIDO DE CLORO 3500ppm (CDS)</strong>
+✔ 100 ml → 10,00 € (100 €/l)
+✔ 250 ml → 15,00 € (60 €/l)
+✔ 500 ml → 25,00 € (50 €/l)
+✔ 1000 ml → 45,00 € (45 €/l)
+
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+<script>
+// Acordeón con múltiples secciones abiertas
+const headers = document.querySelectorAll('.accordion-header');
+headers.forEach(header => {
+  header.addEventListener('click', () => {
+    const content = header.nextElementSibling;
+    content.style.display = content.style.display === 'flex' ? 'none' : 'flex';
+  });
+});
+</script>
+
+</body>
+</html>
+
